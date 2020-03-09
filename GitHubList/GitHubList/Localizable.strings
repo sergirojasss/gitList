@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  GitHubList
+
+  Created by Sergi Rojas on 03/03/2020.
+  Copyright © 2020 Sergi Rojas. All rights reserved.
+*/
+
+where_to_go = "Where do you want to go?";
+to_project_page = "Project page";
+to_owners_page = "Owner page";
+this_action_open_safari="This action will open safari";
+cancel = "Cancel";

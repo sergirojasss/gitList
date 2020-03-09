@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+  platform :ios, '10.0'
+
+target 'GitHubList' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for GitHubList
+  pod 'Alamofire', '~> 5.0' #for network requests
+  pod 'MBProgressHUD', '~> 1.2.0' #to make your wait more fancy
+  pod 'RealmSwift'
+
+
+  target 'GitHubListTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'GitHubListUITests' do
+    # Pods for testing
+  end
+
+end
